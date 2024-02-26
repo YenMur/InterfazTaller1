@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="494.0" prefWidth="721.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="interfaztaller1.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <ProgressIndicator fx:id="cajero1" layoutX="14.0" layoutY="54.0" prefHeight="102.0" prefWidth="102.0" progress="0.0" />
+      <ProgressIndicator fx:id="cajero2" layoutX="14.0" layoutY="183.0" prefHeight="102.0" prefWidth="102.0" progress="0.0" />
+      <ProgressIndicator fx:id="cajero3" layoutX="14.0" layoutY="319.0" prefHeight="102.0" prefWidth="102.0" progress="0.0" />
+      <ProgressIndicator fx:id="cajero4" layoutX="595.0" layoutY="54.0" prefHeight="102.0" prefWidth="102.0" progress="0.0" />
+      <ProgressIndicator fx:id="cajero5" layoutX="595.0" layoutY="183.0" prefHeight="102.0" prefWidth="102.0" progress="0.0" />
+      <ProgressIndicator fx:id="cajero6" layoutX="595.0" layoutY="319.0" prefHeight="102.0" prefWidth="102.0" progress="0.0" />
+      <TitledPane fx:id="colaEsperaI" animated="false" layoutX="146.0" layoutY="54.0" prefHeight="360.0" prefWidth="135.0" text="Cola de Espera">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="320.0" prefWidth="194.0" />
+        </content>
+      </TitledPane>
+      <TitledPane fx:id="colaAtendidos" animated="false" layoutX="375.0" layoutY="54.0" prefHeight="360.0" prefWidth="135.0" text="Atendidos">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="320.0" prefWidth="194.0" />
+         </content>
+      </TitledPane>
+    </children>
+</AnchorPane>
